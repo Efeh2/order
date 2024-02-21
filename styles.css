@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color:  hsl(225, 100%, 94%);
+    min-height: 100vh;
+    font-family: 'Red Hat Display', sans-serif ;
+}
+.flexbox-container{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+}
+.flexbox-item{
+    align-items: center;
+    width: 350px;
+    height: 520px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 20px;
+}
+.hero{
+    width: 350px;
+    border-bottom: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+h2{
+    margin-top: 25px;
+    font-weight: 900;
+    text-align: center;
+    color:  hsl(223, 47%, 23%);
+}
+p{
+    text-align: center;
+    font-size: 16px;
+    border-top: 20px;
+    padding: 10px;
+    color:  hsl(223, 47%, 23%);
+}
+.flexbox-item2{
+    width: 280px;
+    justify-content: space-between;
+    height: 70px;
+    background-color:  hsl(225, 100%, 98%);
+    margin-left: 30px;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+.music{
+    width: 50px;
+    height: 50px;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+.plan{
+    margin-top: 15px;
+    margin-right: 35px;
+}
+h4{
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: 800;
+    color: hsl(223, 47%, 23%);
+}
+h5{
+    margin-top: 25px;
+    margin-right: 20px;
+    color:  hsl(245, 75%, 52%);
+    text-decoration: underline;
+}
+h5:hover{
+    color:  hsl(225, 36%, 40%);
+    text-decoration: none;
+}
+.button{
+    margin-left: 30px;
+    width: 280px;
+    height: 40px;
+    background-color: hsl(245, 75%, 52%);
+    border: 1px solid rgb(250, 243, 243);
+    border-radius: 10px;
+    margin-top: 20px;
+    color: white;
+}
+.button:hover{
+    background-color: hsl(225, 36%, 40%);
+}
+h3{
+    text-align: center;
+    font-weight: 100;
+    font-size: 13px;
+    margin-top: 15px;
+}
+h3:hover{
+    color: hsl(223, 47%, 23%);
+    font-weight: 800;
+    cursor: auto;
+}
+@media screen and (min-width: 375px) {
+    body{
+    background-image: url('./images/pattern-background-mobile.svg');
+    padding: 50px;
+    }
+}
